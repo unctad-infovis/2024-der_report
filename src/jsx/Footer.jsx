@@ -1,4 +1,4 @@
-import React, { useEffect /* , useState, useRef */ } from 'react';
+import React, { useEffect } from 'react';
 import '../styles/styles.less';
 
 function Footer() {
@@ -17,7 +17,7 @@ function Footer() {
             <div className="footer_content anchor_videos" id="anchor_videos">
               <h3>Watch the videos</h3>
               <div className="iframe_container youtube_iframe">
-                <iframe src="https://www.youtube.com/embed/0iVoEdQ8rAc" title="Digital economy report 2024" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                <iframe src="https://www.youtube.com/embed/0iVoEdQ8rAc" title="Digital economy report 2024" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
               </div>
               <ul>
                 <li>
@@ -58,12 +58,12 @@ function Footer() {
               </ul>
               <h4>Watch the press conference</h4>
               <div className="iframe_container youtube_iframe">
-                <iframe src="https://www.youtube.com/embed/w0H1eCzE0LY" title="Digital economy report 2024 press conference" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+                <iframe src="https://www.youtube.com/embed/w0H1eCzE0LY" title="Digital economy report 2024 press conference" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen />
               </div>
               <h4>Download the video</h4>
               <ul>
                 <li>
-                  <a href="https://vimeo.com/981927770 " target="_blank" rel="noreferrer">English</a>
+                  <a href="https://vimeo.com/981927770" target="_blank" rel="noreferrer">English</a>
                 </li>
               </ul>
             </div>
