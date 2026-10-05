@@ -44,7 +44,6 @@
     "webpack-dev-server": "^6.0.0"
   },
   "dependencies": {
-    "highcharts": "^11.4.9",
     "intersection-observer": "^0.12.2",
     "react-is-visible": "^1.2.0",
     "uuid4": "^2.0.3"
